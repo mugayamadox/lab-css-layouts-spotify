@@ -49,6 +49,21 @@ White: #FFF
   font-size: 2em;
 }
 
-#tt {
-  font-size: 3em;
+#content {
+  margin: 0 2em 0 2em;
+}
+
+#features {
+  display: flex;
+}
+
+.feat {
+}
+
+#features img {
+  width: auto;
+  height: 5em;
+}
+#sample {
+  clear: both;
 }
