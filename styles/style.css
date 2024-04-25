@@ -6,6 +6,9 @@ Green: #00B172
 White: #FFF
 
 */
+h2 {
+  font-size: 3em;
+}
 
 #nav {
   height: 5em;
@@ -53,17 +56,92 @@ White: #FFF
   margin: 0 2em 0 2em;
 }
 
+#spotify {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-color: #1ab26b;
+  text-underline-position: under;
+}
+
+#content h2 {
+  align-content: center;
+}
+
 #features {
   display: flex;
+  justify-content: space-evenly;
+  margin-left: 5em;
 }
 
 .feat {
+  width: 20%;
+}
+
+.feat p {
+  font-size: 1.5em;
+}
+.feat h3 {
+  font-size: 2em;
+  color: #1ab26b;
 }
 
 #features img {
   width: auto;
-  height: 5em;
+  height: 6em;
 }
 #sample {
-  clear: both;
+  background-color: #1ab26b;
+  margin: 2em 0em 2em 0em;
+}
+
+#wrapper {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin: 2em 3em 2em 3em;
+}
+#wrapper h2,
+h3,
+p {
+  color: #fff;
+}
+#wrapper h3 {
+  font-size: 2em;
+}
+
+#wrapper p {
+  font-size: 1.3em;
+}
+
+#sample_right {
+  width: 20%;
+  margin-top: 5em;
+}
+#sample_right img {
+  height: 40em;
+}
+
+#sample_Left {
+  width: 50%;
+}
+#imager {
+  width: 10%;
+  float: right;
+  position: relative;
+  bottom: 20em;
+  left: -8em;
+}
+
+#imager img {
+  width: 10em;
+}
+#inwrap {
+  width: 40%;
+}
+
+#discover h2 {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  text-underline-position: under;
 }
