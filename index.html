@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
-    <!-- don't forget to link your styles -->
     <link href="styles/style.css" rel="stylesheet" />
   </head>
+
   <body>
-    <div id="nav">
+    <nav class="nav">
       <img class="logo" src="images/spotify-logo.png" />
       <ul>
         <li>Premium</li>
@@ -17,25 +17,24 @@
         <li>Help</li>
         <li>Download</li>
       </ul>
-    </div>
+    </nav>
 
-    <div id="landing">
+    <section class="landing">
       <div class="txt">
         <h1>Music for everyone.</h1>
         <p>
           Spotify is now free on mobile, tablet and computer. Listen to the
           right music, wherever you are.
         </p>
-
-        <p></p>
       </div>
-    </div>
-    <div id="content">
+    </section>
+
+    <main class="content">
       <div class="spotify">
         <h2>What’s on Spotify?</h2>
       </div>
 
-      <div id="features">
+      <section class="features">
         <div class="feat">
           <img src="images/music-icon.png" />
           <h3>Millions of Songs</h3>
@@ -51,11 +50,12 @@
           <h3>Stream Everywhere</h3>
           <p>Stream music on your smartphone, tablet or computer</p>
         </div>
-      </div>
-      <div id="sample">
-        <div class="wrapper">
-          <div id="sample_Left">
-            <div id="discover">
+      </section>
+
+      <section class="sample">
+        <section class="wrapper">
+          <article class="sample_Left">
+            <card class="discover">
               <h2>It’s as yeezy as Kanye West.</h2>
               <div class="inwrap">
                 <h3>Search</h3>
@@ -74,17 +74,17 @@
                   Or sit back and enjoy Radio.
                 </p>
               </div>
-            </div>
-            <div class="imager">
+            </card>
+            <figure class="imager">
               <img src="images/spotify-icon-white.png" />
-            </div>
-          </div>
+            </figure>
+          </article>
 
-          <div id="sample_right">
+          <figure class="sample_right">
             <img src="images/spotify-app.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
+          </figure>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
