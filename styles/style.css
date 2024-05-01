@@ -6,10 +6,28 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* reseting default browser styles */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*defining font  */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+
 h2 {
   font-size: 3em;
 }
 
+/* navigation styles */
 #nav {
   height: 5em;
   width: 100%;
@@ -36,6 +54,7 @@ h2 {
   margin-left: 2em;
 }
 
+/* styles for the landing content */
 #landing {
   background-image: url("../images/landing.jpg");
   background-size: cover;
@@ -52,15 +71,16 @@ h2 {
   font-size: 2em;
 }
 
+/*styles for main content */
 #content {
   margin: 0 2em 0 2em;
 }
 
-#spotify {
+.spotify {
   display: flex;
   justify-content: center;
   text-decoration: underline;
-  text-decoration-color: #1ab26b;
+  text-decoration-color: #00B172;
   text-underline-position: under;
 }
 
@@ -83,7 +103,7 @@ h2 {
 }
 .feat h3 {
   font-size: 2em;
-  color: #1ab26b;
+  color: #00B172;
 }
 
 #features img {
@@ -91,26 +111,26 @@ h2 {
   height: 6em;
 }
 #sample {
-  background-color: #1ab26b;
+  background-color: #00B172;
   margin: 2em 0em 2em 0em;
 }
 
-#wrapper {
+.wrapper {
   display: flex;
   width: 90%;
   justify-content: space-around;
   margin: 2em 3em 2em 3em;
 }
-#wrapper h2,
+.wrapper h2,
 h3,
 p {
   color: #fff;
 }
-#wrapper h3 {
+.wrapper h3 {
   font-size: 2em;
 }
 
-#wrapper p {
+.wrapper p {
   font-size: 1.3em;
 }
 
@@ -125,7 +145,7 @@ p {
 #sample_Left {
   width: 50%;
 }
-#imager {
+.imager {
   width: 10%;
   float: right;
   position: relative;
@@ -133,10 +153,10 @@ p {
   left: -8em;
 }
 
-#imager img {
+.imager img {
   width: 10em;
 }
-#inwrap {
+.inwrap {
   width: 40%;
 }
 
