@@ -14,7 +14,7 @@ CLEARING BROWSER DEFAULTS AND SETTING GLOBAL STYLES
 body {
   margin: 0;
   font-size: 1rem;
-  color: 1A1A1A;
+  color: #1A1A1A;
 }
 
 /* 
@@ -28,7 +28,7 @@ section,
 header {
   border: 1px red solid;
 }
-row,
+.row,
 col {
   border: 1px green dashed;
 }
