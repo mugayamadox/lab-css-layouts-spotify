@@ -24,6 +24,10 @@ LAYOUT
  */
 
 /* layout guides, to be used in development only */
+.logo{
+  width:10%;
+
+}
 section,
 header {
   border: 1px red solid;
