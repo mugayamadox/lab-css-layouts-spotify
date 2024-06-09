@@ -61,7 +61,6 @@ section {
   height: 40rem;
 }
 .row {
-  width: 95%;
   display: flex;
   justify-content: center;
 }
@@ -95,11 +94,16 @@ li {
 .landing p{
   font-weight: 100;
 }
-.features .row .article{
-  width:25%;
+.features .row article{
+  width:33%;
+}
+
+
+.row article img{
+    width:20%;
 }
 .features .row{
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 /* 
 ==========================================
