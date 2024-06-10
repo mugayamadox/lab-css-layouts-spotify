@@ -13,7 +13,8 @@ CLEARING BROWSER DEFAULTS AND SETTING GLOBAL STYLES
  */
 body {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
   color: #1a1a1a;
 }
 
@@ -50,11 +51,11 @@ section {
 .landing {
   height: 40rem;
   background-image: url("../images/landing.jpg");
-  background-size: cover;
+  background-size: contain;
 }
 
 .features {
-  height: 20rem;
+  min-height: 25rem;
 }
 
 .app {
@@ -62,11 +63,17 @@ section {
 }
 .row {
   display: flex;
-  justify-content: center;
 }
 
 .features h2 {
   text-align: center;
+  text-decoration: underline #00b172;
+  text-underline-position: under;
+  margin-bottom: 2em;
+}
+
+.features h3 {
+  color: #00b172;
 }
 
 ul {
@@ -80,31 +87,50 @@ li {
   font-weight: light;
 }
 
-.landing span{
+.landing span {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  text-align:center;
+  text-align: center;
 }
-.landing h1{
-  font-size:3rem;
+.landing h1 {
+  font-size: 3rem;
 }
-.landing p{
+.landing p {
   font-weight: 100;
 }
-.features .row article{
-  width:33%;
-}
 
-
-.row article img{
-    width:20%;
+.row article img {
+  width: 20%;
 }
-.features .row{
+.features .row {
   justify-content: space-evenly;
 }
+.features .col-1 {
+  text-align: center;
+}
+
+.app {
+  width: 95%;
+  background-color: #00b172;
+  margin: 0 auto;
+}
+
+.app img {
+  width: 100%;
+}
+.col-1 {
+  width: 25%;
+}
+.col-2 {
+  width: 45%;
+}
+.col-3 {
+  width: 10%;
+}
+
 /* 
 ==========================================
 TYPOGRAPHY
