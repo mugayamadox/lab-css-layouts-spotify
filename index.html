@@ -6,13 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Spotify Clone</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js"></script>
   </head>
   <body>
     <div class="container">
       <header>
         <nav>
           <img class="logo" src="images/spotify-logo.png" />
-          <ul>
+
+          <button class="hamburger" id="toggler">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <ul class="nav-menu">
+            <li>Premium</li>
+            <li>Discover</li>
+            <li>Help</li>
+            <li>Download</li>
+          </ul>
+
+          <ul class="off" id="mobile_menu">
             <li>Premium</li>
             <li>Discover</li>
             <li>Help</li>
